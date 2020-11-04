@@ -1,5 +1,5 @@
 # graph-connectedness-scala-pregel
-Generate Histogram for each RGB color in the given dataset using Scala and Spark and Pregel API.
+Generate Histogram for each RGB color in the given dataset using Scala and Spark and GraphX Pregel API.
 
 Project done as a part of CSE-6331 Cloud Computing Course at UTA.
 
