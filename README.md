@@ -34,15 +34,15 @@ Project done as a part of CSE-6331 Cloud Computing Course at UTA.
 7,6
 <br>
 <br>
-<p style="text-align: justify; text-justify: inter-word;">
+<p align=justify>
 The task is to write a Map-Reduce program that finds the connected components of any undirected graph and prints the size of these connected components. A connected component of a graph is a subgraph of the graph in which there is a path from any two vertices in the subgraph. For the above graph, there are two connected components: one 0,8,9 and another 1,2,3,4,5,6,7. The program should print the sizes of these connected components: 3 and 7.
 </p>
 
-<p style="text-align: justify; text-justify: inter-word;">
+<p align=justify>
 The following pseudo-code finds the connected components. It assigns a unique group number to each vertex (we are using the vertex ID as the group number), and for each graph edge between Vi and Vj, it changes the group number of these vertices to the minimum group number of Vi and Vj. That way, vertices connected together will eventually get the same minimum group number, which is the minimum vertex ID among all vertices in the connected component. First you need a class to represent a vertex:
 </p>
 
-<p style="text-align: justify; text-justify: inter-word;">
+<p align=justify>
 Re-implementing Project #5 (Graph Processing) using Pregel on Spark GraphX. That is, the program must find the connected components of any undirected graph and print the size of these connected components. Have to use the pregel method from the GraphX Pregel API only to write your code. The main program should take the text file that contains the graph (small-graph.txt or large-graph.txt) as an argument and print the results to the output. The stopping condition is when the number of repetition reaches 5.
 <p>
 
